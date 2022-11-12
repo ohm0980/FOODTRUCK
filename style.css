@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+.menu img{
+    margin: 20px 50px;
+    border: solid 1px black;
+    padding: 10px 10px;
+    border-radius: 10px;
+}.con{
+    display: flex;
+}.rum{
+    background-color: #EFF5F5;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 20px;
+}.rum .inpu input{
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    width: 300px;
+    height: 30px;
+}.rum .inpu{
+    margin-top: 20px
+}.rum .inpu h1{
+    font-family: 'Prompt', sans-serif;
+    color: brown;
+}.rum .inpu input[type="button"]{
+    margin-top: 50px;
+    width: 350px;
+}

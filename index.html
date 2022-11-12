@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn-icons-png.flaticon.com/128/1689/1689246.png"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+        <form action="" class="menu">
+            <img src="https://cdn-icons-png.flaticon.com/128/1531/1531385.png" onclick="rice()">
+            <img src="https://cdn-icons-png.flaticon.com/128/4973/4973189.png" onclick="egg()">
+            <img src="https://cdn-icons-png.flaticon.com/128/706/706164.png" onclick="veg()">
+            <img src="https://cdn-icons-png.flaticon.com/128/403/403601.png" onclick="fil()">
+        </form>
+        <form action="" class="rum">
+            <div class="inpu">
+                <h1>MENU</h1>
+                <input type="text" placeholder="RICE" id="ri">
+                <br>
+                <input type="text" placeholder="EGG" id="eg">
+                <br>
+                <input type="text" placeholder="VAGETABLE" id="veg">
+                <br>
+                <input type="text" placeholder="FIRE VEG" id="fveg">
+                <br>
+                <input type="button" value="GET" onclick="get()"> 
+                <br>
+                <br>
+                <br>
+                <input type="number" id="ruam" readonly placeholder="ราคารวม">
+                <br>
+                <input type="button" value="จ่ายเงิน" onclick="jai()">
+                <input type="button" value="clear" onclick="clea()">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
